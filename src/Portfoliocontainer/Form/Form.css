@@ -38,26 +38,29 @@
 
 
 .Name-Form, .Email-Form{
-    width: 90%;
+    width: 85%;
     outline: none;
     border: none;
     height: 30px;
     margin-bottom: 10px;
-    border-radius: 3px;
-    color: #1f2235;
+    padding-left: 10px;
     margin-left: 5%;
 border-radius: 6px;
+color: #1f2235;
+border: solid 1px white ;
+background-color: transparent;
 }
 
 .Subject-Form{
     border-radius: 6px;
     width: 85%;
     outline: none;
-    border: none;
-    color: #1f2235;
     height: 90px;
     margin-left: 5%;
     padding-left: 10px;
+    color: #1f2235;
+    border: solid 1px white ;
+    background-color: transparent;
 }
 
 
@@ -164,7 +167,7 @@ border-radius: 6px;
 
 @media screen and (max-width:790px) {
     .Former,.Displayer{
-        background-color: #fff;
+        padding: 10px;
     }}
 
     @media screen and (max-width:690px){
@@ -187,5 +190,11 @@ border-radius: 6px;
          }
          .Email-Header{
             display: none;
+         }
+         .Displayer h5{
+            font-size: 16px;
+            font-weight: 500;
+            background-color: none;
+            margin-top: -20px;
          }
      }

@@ -99,6 +99,12 @@
     transition: border 0.3s ease-in;
     border: 1px solid #1f2235 ;
 }
+.profile-headerz{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+    margin: 0;
+}
 
 .profile-picture{
     display: flex;
@@ -215,9 +221,11 @@
     .profile-picture{
         margin: 0px;
         height: 300px;
-        width: 96%;
-        padding-left: 2%;
 
+    }
+    .profile-headerz{
+        font-size: 30px;
+      
     }
  
 }

@@ -92,7 +92,8 @@
      
     }
     .Block-Floop{
-        border-radius: 7px;
+        border-radius: 15px;
+        box-shadow: inset rgba(0, 0, 0, 0.183) 1px 1px 70px 1px;
     }
 
 }

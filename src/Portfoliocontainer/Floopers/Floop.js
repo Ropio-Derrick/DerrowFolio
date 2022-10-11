@@ -26,6 +26,7 @@ function Floop() {
 
   return (
     <div className="Flooper">
+      <h1 style={{ textAlign: "left", fontWeight: 600 }}>My Services</h1>
       <div
         className="Block-Floop"
         onMouseOverCapture={Changer}

@@ -32,9 +32,9 @@ export default function Profile() {
             </span>
           </div>
           <div className="Profile-details-role">
+            <p className="profile-headerz">Awesome Features</p>
             <span className="primary-text">
               {""}
-              <h1>{""}</h1>
               <span className="profile-role-tagline">
                 {""}
                 Best Design{" "}
