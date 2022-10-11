@@ -43,17 +43,7 @@
     animation: changer1 15s linear infinite;
 }
 
-@keyframes changer1 {
-    0%{
-    color: #fff;
-    }
-    50%{
-        color: #ff8400 ;
-    }
-    100%{
-        color: #fff;
-    }
-}
+
 
 .profile-role-tagline-spanner{
     font-size: 19px;
@@ -61,19 +51,6 @@
     color: #ff8400;
     animation: changer2 15s linear infinite;
 }
-
-@keyframes changer2 {
-    0%{
-        color: #ff8400 ;
-    }
-    50%{
-        color: #fff;
-    }
-    100%{
-        color: #ff8400 ;
-    }
-}
-
 
 .Profile-Options{
     display: flex;
@@ -238,8 +215,8 @@
     .profile-picture{
         margin: 0px;
         height: 300px;
-        width: 100%;
-
+        width: 96%;
+        padding-left: 2%;
 
     }
  

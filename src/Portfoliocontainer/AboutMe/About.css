@@ -168,6 +168,9 @@ justify-content: space-between;
         padding-left: 20px;
         margin: 0px;
      }
+     .Myself{
+        text-align: left;
+     }
     .Myself2{
         font-size: 18px;
         display:block;
