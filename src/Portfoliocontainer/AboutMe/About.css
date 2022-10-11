@@ -1,0 +1,193 @@
+.AboutMe{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 47%;
+    color: #fff;
+    gap: 20px;
+}
+
+.Me{
+    padding-left: 50px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+ 
+}
+
+.MeLeb{
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    font-size: 30px;
+    color: #ff8000;
+    float: Left;
+    padding: 12px 20px 0px 0px;
+
+}
+
+.Myself, .Myself2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 70%;
+}
+
+
+
+.MeLeb2{
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    font-size: 30px;
+    color: #ff8000;
+    float: right;
+    padding: 12px 20px 0px 0px;
+
+}
+
+.Myself2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    opacity: 70%;
+    background-color: transparent;
+    
+}
+
+
+.Myselfspanner{   color: #fff;
+animation: changer 4s  linear infinite;
+}
+
+
+.Experience{
+    display: flex;
+    padding-right: 10%;
+   background-color: rgba(255, 255, 255, 0.049);
+   border-radius: 20px 0px 0px 20px ;
+}
+
+.Swiper{
+    position: relative;
+    background-color: #ff8000;
+    height: 100%;
+    width: 20px;
+    border-radius: 0px 4px 4px 0px;
+    animation: slider 4s linear infinite;
+    z-index: 0;
+    border-radius: 20px 0px 0px 20px ;
+
+}
+
+@keyframes slider {
+    0%{
+        width:20px ;
+        background-color: rgba(255, 255, 255, 0.094);
+
+    }
+
+
+
+    100%{
+        width: 100%;
+        background-color: transparent}
+}
+
+.carrier{
+    position: absolute;
+    padding-left: 10px;
+}
+
+
+.skills{
+    color: #ff8000;
+}
+.headskill{
+color: #fff;
+font-size: 25px;
+font-weight: 500;
+}
+
+.listers{
+padding: 5px;
+text-decoration: none;
+outline: none;
+font-size: 17px;
+margin: 0px;
+font-weight: 500;
+line-height: 15px;
+}
+
+.flexer{
+display: flex;
+justify-content: space-between;
+}
+
+@media screen and (max-width:940px){
+    .AboutMe{
+        grid-template-columns: 57% 40%;
+    
+    }
+    .Flooperone{
+        margin: 0px;
+        padding: 0px;
+    margin: 0px;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:851px){
+    .Myself,.Myself2{
+      text-align: Justify;
+     
+     }
+     .Me{
+        padding-right: 20px;
+        padding-left: 10px;
+        margin-left: 10px;
+     }
+     
+}
+
+@media screen and (max-width:751px){
+    .Myself2{
+      font-size: 18px;
+      display: none;
+     }
+     .Myself{
+        font-size: 18px;
+       }
+}
+
+@media screen and (max-width:690px){
+    .AboutMe{
+       
+        grid-template-columns: 1fr;
+    }
+    .Me{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0px;
+     }
+    .Myself2{
+        font-size: 18px;
+        display:block;
+       }
+    
+}
+
+@media screen and (max-width:500px){
+    .Myself2{
+        font-size: 18px;
+        display: none;
+       }
+}
+
+
+@media screen and (max-width:375px){
+    .Me{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0px;
+     }
+}
+

@@ -1,0 +1,237 @@
+.House-Done{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:70px 50px 0px 50px ;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.Baggy{
+    background-image: url(../../assets/img/wp8371852-minimal-code-wallpapers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    position: absolute;
+    transition: all 0.5s ease-out;
+    opacity: 90%; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.Baggy:hover{
+   
+    transition: all 0.5s ease-in;
+    opacity: 100%;
+    z-index: 9;
+}
+
+.Work1{
+    background-image: url(../../assets/img/pexels-shvets-production-7191981.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    height: 300px;
+    width: 55%;
+    float: right;
+    position: relative;
+    transition: all 0.5s ease-out;
+    opacity: 90%;
+ 
+    padding: 0px;
+}
+
+.Work1:hover{
+    width: 100%;
+    transition: all 0.5s ease-in;
+    z-index: 9;
+    opacity: 100%;
+    padding: 0px;
+
+}
+
+
+.Work2{
+    background-image: url(../../assets/img/IMG_0169.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; 
+    width: 35%;
+    float: right;
+    margin-top: 180px;
+    margin-left: 30px;
+    position: absolute;
+    transition: all 0.5s ease-out;
+    opacity: 90%;}
+
+.Work2:hover{
+    height: 250px;
+    transition: all 0.5s ease-in;
+    opacity: 100%;
+    z-index: 9;
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 120px;
+}
+
+
+.Header-Done{
+    font-size: 30px;
+    text-align: center;
+}
+
+.hrRater{
+    margin: 100px 0px 0px 0px;
+ 
+
+}
+
+.Liner1{
+    margin: 0px;
+    border: 1px solid #de8727;
+    padding-left: 2px;
+    padding-right: 5px;
+border-radius: 10px;
+    
+
+}
+
+.hrRater1{
+padding: 0px;
+margin: 0px;
+height: 2px;
+color: #de8727;
+border: none;
+outline: none;
+text-decoration: none;
+animation: anim 6s alternate infinite;
+background-color: white;
+}
+
+.Done-Left{
+    margin-top: 60px;
+   margin-left: 50px;
+   position: relative;
+}
+
+.Done-Left-Packer h1{
+font-size: 20px;
+}
+
+@keyframes anim {
+    0% {
+width: 0%;
+    }
+    100% {
+        width: 80%;
+        background-color: #ff8400;
+            }
+ }
+
+
+@media screen and (max-width:930px) {
+    
+    .Done-Left{
+        margin-right: 0px;
+   
+    }
+}
+
+@media screen and (max-width:851px){
+    .House-Done{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+    }
+    .Done-Right{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:790px) {
+.House-Done{
+ 
+    grid-template-columns: 43% 57%;
+
+   
+}}
+
+@media screen and (max-width:690px){
+    .House-Done{
+            grid-template-columns: 100%;
+            gap: 50px;
+            padding-right: 0px;
+      
+    }
+    .Header-Done{
+        
+        font-size: 30px;
+        text-align: left;
+        text-decoration: underline #ff8400 ;
+    }
+    
+    .Baggy{
+        width: 94%;
+      height: 400px;
+    }
+   
+    .Work1{
+        margin-top: 100px;
+        height: 450px;
+        width: 55%;
+    }
+    
+    .Work2{
+        height: 300px;
+        width: 65%;
+
+    }
+    .Work2:hover{
+    
+width: 88%;
+    }
+    .Done-Left{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        background-color: bluevioletss;
+    }
+}
+
+@media screen and (max-width:680px){
+    .House-Done{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .Baggy{
+        width: 90%;
+    }
+    
+}
+
+
+@media screen and (max-width:480px){
+    .Baggy{
+        height: 250px;
+        width: 88%;
+
+         }
+         .Work1{
+            height: 250px;
+            margin-right: 2%;
+         }
+         .Work1:hover{
+            
+            width: 98%;
+         }
+         .Work2{
+            height: 200px;
+         }
+}
