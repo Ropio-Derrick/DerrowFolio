@@ -14,8 +14,8 @@ export default function Profile() {
               <a href="https://www.instagram.com/ropio_derrick/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://medium.com/@rodetuk">
-                <i className="fab fa-medium"></i>
+              <a href="https://github.com/ropio-derrick">
+                <i className="fab fa-github"></i>
               </a>
               <a href="https://ke.linkedin.com/in/derrick-ropio-a099a820a">
                 <i className="fab fa-linkedin"></i>
