@@ -84,6 +84,10 @@
     font-size: 30px;
     text-align: center;
 }
+.Header-Done span{
+    color: #de8727;
+    font-weight: 600;
+} 
 
 .hrRater{
     margin: 100px 0px 0px 0px;
@@ -174,7 +178,7 @@ width: 0%;
         
         font-size: 30px;
         text-align: left;
-        text-decoration: underline #ff8400 ;
+        font-weight: 500;
     }
     
     .Baggy{
