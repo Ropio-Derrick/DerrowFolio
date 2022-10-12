@@ -7,7 +7,11 @@ export const Box = styled.div`
   margintop: 50px;
 
   @media (max-width: 1000px) {
-    padding: 20px 10px;
+    padding: 10px 10px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0px 0px;
   }
 `;
 
@@ -30,8 +34,7 @@ export const Column = styled.div`
     padding-left: 10px;
   }
   @media (max-width: 470px) {
-    grid-template-columns: 1fr;
-    padding-left: 10px;
+    padding-left: 0px;
     line-height: 20px;
   }
 `;
@@ -39,7 +42,6 @@ export const Column = styled.div`
 export const Row = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
 
   @media (max-width: 1000px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -50,6 +52,7 @@ export const Row = styled.div`
   }
   @media (max-width: 470px) {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 `;
 
