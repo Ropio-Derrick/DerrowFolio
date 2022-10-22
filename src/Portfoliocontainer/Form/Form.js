@@ -1,7 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Form.css";
 
 function Form() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7f7a512 ",
+        "template_qdux3ck",
+        form.current,
+        "_5dxnU5QafOLc0l8t"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message Sent");
+        },
+        (error) => {
+          console.log(error.text);
+          console.log("Message Not Sent");
+        }
+      );
+    e.target.reset();
+  };
+
   const [changer, setChanger] = useState(false);
   const [flag, setFlag] = useState();
   const pageChanger = () => {
@@ -38,7 +63,7 @@ function Form() {
             transition: "all 0.25s ease-out",
           }}
         >
-          <form>
+          <form onSubmit={sendEmail} ref={form}>
             <h1 className="Email-Header">Reach Out</h1>
 
             <div className="Form-Placer">
@@ -47,6 +72,7 @@ function Form() {
                   className="Name-Form"
                   type="text"
                   placeholder="Enter Your Name"
+                  name="user_name"
                 />
               </div>
               <div className="Email-Sitter">
@@ -55,19 +81,22 @@ function Form() {
                   type="email"
                   aria-required
                   placeholder="Enter Your Email"
+                  name="user_email"
                 />
               </div>
+
               <div className="Email-Sitter">
-                <input
+                <textarea
                   className="Subject-Form"
-                  type="subject"
+                  type="message"
                   aria-required
-                  placeholder="Enter YOur Subject"
+                  placeholder="Description"
+                  name="message"
                 />
               </div>
             </div>
             <div className="button-placer">
-              <button className="smt-btn">Submit</button>
+              <input className="smt-btn" type="submit" value="Send" />
             </div>
           </form>
         </div>

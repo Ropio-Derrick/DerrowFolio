@@ -26,12 +26,6 @@ function Floop() {
 
   return (
     <div className="Flooper">
-      <h1
-        className="Header-Done"
-        style={{ textAlign: "left", marginLeft: "10px" }}
-      >
-        My <span>Services</span>
-      </h1>
       <div
         className="Block-Floop"
         onMouseOverCapture={Changer}

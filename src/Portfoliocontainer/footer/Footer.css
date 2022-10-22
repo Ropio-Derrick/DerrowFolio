@@ -1,0 +1,48 @@
+.InterMage{
+    border-radius: 10px;
+    display: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  @media (max-width: 600px) {
+    .InterMage{
+        display: block;
+    }
+    .Header-Footer{
+        padding-top: 50px;
+        text-align: center;
+        font-weight: 100;
+    }
+    .Spanner{
+    font-weight: 600;
+    }
+    .iconnerz{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    FooterLink{
+        padding: 10px;
+    }
+  }
+
+  @media (max-width: 570px) {
+    .iconnerz{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    };
+  }
+    @media (max-width: 370px) {
+        .iconnerz{
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr
+        };
+    }
+
+

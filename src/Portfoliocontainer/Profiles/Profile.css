@@ -221,6 +221,7 @@
     .profile-picture{
         margin: 0px;
         height: 300px;
+        width: 100%;
 
     }
     .profile-headerz{
@@ -230,14 +231,14 @@
     .Profile-container{
         padding: 5px;
     }
- 
+
 }
 
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:475px){
     .profile-picture{
-        height: 275;
+        height: 375;
         width: 100%;
         margin-top: 0px;
 

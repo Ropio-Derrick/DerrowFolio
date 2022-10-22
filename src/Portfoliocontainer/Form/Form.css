@@ -55,7 +55,7 @@ background-color: transparent;
     border-radius: 6px;
     width: 85%;
     outline: none;
-    height: 90px;
+    height: 30px;
     margin-left: 5%;
     padding-left: 10px;
     color: #1f2235;
@@ -172,10 +172,11 @@ background-color: transparent;
 
     @media screen and (max-width:690px){
         .Former{
-            width: 100%;
-               margin: 0px;
-               padding: 0px;
-        }
+            height: 330px;
+            width: 94%;
+            margin-left:3% ;
+            padding: 0px;
+        }  
         .Former-Main{
             margin: 0px;
             padding: 0px;
@@ -185,9 +186,7 @@ background-color: transparent;
 
     @media screen and (max-width:540px) {
      
-         .Former{
-            height: 330px;
-         }
+     
          .Email-Header{
             display: none;
          }
@@ -196,5 +195,10 @@ background-color: transparent;
             font-weight: 500;
             background-color: none;
             margin-top: -20px;
+            width: 96%;
+            margin-left: 2%;
          }
+         .Former,.Displayer{
+            padding: 0px;
+        }
      }

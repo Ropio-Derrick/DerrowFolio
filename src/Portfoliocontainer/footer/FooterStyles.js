@@ -11,7 +11,7 @@ export const Box = styled.div`
   }
 
   @media (max-width: 600px) {
-    padding: 0px 0px;
+    display: none;
   }
 `;
 
@@ -47,9 +47,15 @@ export const Row = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  @media (max-width: 600px) {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width: 700px) {
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    scale: 80%;
   }
+  @media (max-width: 640px) {
+    gap: 5px;
+  }
+
   @media (max-width: 470px) {
     grid-template-columns: 1fr;
     width: 100%;
@@ -61,10 +67,14 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
-
+  padding: 10px;
   &:hover {
     color: #ff8400;
     transition: 200ms ease-in;
+  }
+  @media (max-width: 530px) {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
 `;
 
