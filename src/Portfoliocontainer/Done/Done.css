@@ -223,6 +223,9 @@ width: 0%;
     .Baggy{
         width: 100%;;
     }
+    .Header-Done{
+        padding-left:10px ;
+    }
     
 }
 
